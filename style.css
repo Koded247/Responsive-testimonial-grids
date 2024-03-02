@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(189, 45%, 91%);
+}
+
+
+
+/* TESTIMONIAL SECTION TWO akorede  */
+.section2-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+}
+
+.right-box {
+background:hsl(0, 0%, 100%) ;
+}
+
+.left-box {
+  background: hsl(219, 29%, 14%);
+  color:hsl(0, 0%, 100%);
+
+}
+.test-cont {
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.profile-pix {
+  border-radius: 50%;
+  border: 5px solid hsl(263, 55%, 52%);
+}
+.user-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}

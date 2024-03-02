@@ -9,6 +9,9 @@ body {
     height: 100vh;
     justify-content: center; 
     align-items: center;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 13px;
+    
 }
 
 .first-flex {

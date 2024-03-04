@@ -7,11 +7,6 @@
 body {
     width: 100%;
     height: 100vh;
-<<<<<<< HEAD
-    background: rgb(244, 216, 244);
-    /* display: flex; */
-=======
->>>>>>> 81efbb96bab28065cd8979a6b33358dda2ccc4c7
     justify-content: center; 
     align-items: center;
     font-family: "Barlow Semi Condensed", sans-serif;

@@ -5,6 +5,7 @@
 }
 
 body {
+  background: hsl(0, 0%, 81%);
     width: 100%;
     height: 100vh;
     justify-content: center; 
@@ -25,15 +26,16 @@ body {
 }
 
 .dan-class {
-    background-color: hsla(263, 68%, 56%, 0.589);
+    background-color: hsl(263, 55%, 52%);
     color: white;
     padding: 2rem;
     position: relative;
     border-radius: 1rem;  
+    margin: 1.5rem  0 ;
 }
 
 .qout img {
-    margin-left: 20rem;
+    margin-left: 25rem;
     position: absolute;
     
 }
@@ -41,30 +43,37 @@ body {
 
 
 .image-dan {
-
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
 }
+
 .image-dan img {
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
-    border: 2px solid hsl(263, 55%, 52%);
+    border: 5px solid hsl(263, 33%, 78%);
 } 
 
-.dan-para p h2 {
-    margin-left: 20px;
+
+.dan-para h2 {
+  margin-bottom: 20px;
+  margin-left: 10px;
 }
 
+.dan-para p{
+  margin-left: 10px;
+}
+
+
 .jona-class {
-    background-color: grey;
+    background-color: hsl(217, 19%, 35%);
     color: white;
     padding: 2rem;
     border-radius: 1rem;
+    margin: 1.5rem  0 ;
 }
 
 .image-jona {
@@ -72,13 +81,11 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .image-jona img {
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
     margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -131,27 +138,32 @@ background:hsl(0, 0%, 100%) ;
 /* The lastview for the project */
 
 .last-view {
-  background:hsl(0, 0%, 100%) ;
+  background:hsl(0, 0%, 100%);
   padding: 2rem;
   border-radius: 1rem;
-  margin-top: 20px;
-  /* margin-left: 20px; */
-  margin-bottom: 10px;
+  margin: 1.5rem;
 }
 
 .image-kira {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .image-kira img {
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
   margin-left: 20px;
   margin-bottom: 10px;
+}
+
+.text-kira h2 {
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.text-kira p {
+  margin-left: 20px;
 }
 
 

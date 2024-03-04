@@ -23,12 +23,12 @@ Users should be able to:
 ## BELOW IS THE DESKTOP AND MOBILE VIEWS OF THE PROJECT 
  DESKTOP VIEW 
 
- ![DESKTOP view](/images/desktop-preview.jpg)
+ ![DESKTOP view](./images/desktop-preview.jpg)
 
 
  MOBILE VIEW 
 
- ![DESKTOP view](/images/mobile-design.jpg)
+ ![DESKTOP view](./images/mobile-design.jpg)
 
 
  ## CONTRIBUTIONS / Acknowledgments

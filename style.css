@@ -14,6 +14,7 @@ body {
     
 }
 
+/* Testimonial grid for firstview Noble */
 .first-flex {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -32,7 +33,7 @@ body {
 }
 
 .qout img {
-    margin-left: 30rem;
+    margin-left: 20rem;
     position: absolute;
     
 }
@@ -50,7 +51,7 @@ body {
     border-radius: 50%;
     height: 50px;
     width: 50px;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-bottom: 10px;
     border: 2px solid hsl(263, 55%, 52%);
 } 
@@ -79,9 +80,11 @@ body {
     height: 50px;
     width: 50px;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-bottom: 10px;
 }
+
+/* End of first view */
 
 
 
@@ -92,6 +95,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 1rem;
+  margin-bottom: 10px;
 }
 
 .right-box {
@@ -122,4 +126,41 @@ background:hsl(0, 0%, 100%) ;
 }
 .verify-text {
   opacity: 50%;
+}
+
+/* The lastview for the project */
+
+.last-view {
+  background:hsl(0, 0%, 100%) ;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-top: 20px;
+  /* margin-left: 20px; */
+  margin-bottom: 10px;
+}
+
+.image-kira {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.image-kira img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+.all-grid-item {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 1rem;
+  padding: 20px;
+  justify-content: center; 
+  /* align-items: center; */
 }

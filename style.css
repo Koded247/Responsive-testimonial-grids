@@ -124,3 +124,169 @@ background:hsl(0, 0%, 100%) ;
 .verify-text {
   opacity: 50%;
 }
+
+/* The lastview for the project */
+
+.last-view {
+  background:hsl(0, 0%, 100%);
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 1.5rem;
+}
+
+.image-kira {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.image-kira img {
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.text-kira h2 {
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.text-kira p {
+  margin-left: 20px;
+}
+
+
+
+.all-grid-item {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 1rem;
+  padding: 20px;
+  justify-content: center; 
+  /* align-items: center; */
+}
+
+
+@media screen and (max-width:375px) {
+
+  .all-grid-item{
+    padding: 30px;
+    display: block;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  body {
+    padding: 1rem;
+    justify-content: center;
+  }
+
+  .first-flex {
+    display: block;
+    gap: 1rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.dan-class {
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 80% top;
+  background-color: hsl(263, 55%, 52%);
+  color: white;
+  padding: 1rem;
+  position: relative;
+  border-radius: 1rem;  
+  margin-bottom: 1rem;
+  width: 18rem;
+  height: fit-content;
+}
+
+.section2-container {
+  display: block;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.right-box {
+  margin-bottom: 1rem;
+}
+
+.left-box {
+  width: 18rem;
+}
+
+.last-view {
+  width: 18rem;
+  justify-content: center;
+  margin: 0px;
+}
+
+}
+
+@media screen and (max-width:600px) {
+
+  .all-grid-item {
+    display: block;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  body {
+    
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .first-flex {
+    display: block;
+    gap: 1rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+  }
+
+  .dan-class {
+    position: relative;
+    border-radius: 1rem;  
+    margin-bottom: 1rem;
+    width: 20rem;
+    height: fit-content;
+  }
+
+  .jona-class {
+    width: 20rem;
+  }
+
+  .section2-container {
+    display: block;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .right-box {
+    margin-bottom: 1rem;
+    width: 20rem;
+  }
+
+  .left-box {
+    width: 20rem;
+  }
+
+  .last-view {
+    width: 20rem;
+    justify-content: center;
+    margin: 0px;
+  }
+  .qout img {
+    position: absolute;
+    left: -90%;
+    opacity: 70%;
+    
+}
+
+}
